@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('#button1').click(function(){
+	if($('#text1').val() == ''){
+      alert('Input could not be blank');
+	  } else if ($('#text1').val() !== isNumeric('#text1')){
+	  alert('Input should be a number');
+	  };
+	});
+});
+</script>
+</head>
+<body>
+<input type="text" id="text1">
+<input type="submit" value="Double" id="button1">
+
+<p>Number1: <input type="text"> </p>
+<p>Number2: <input type="text"> </p>
+<p>Number3: <input type="text"> </p>
+<p>Number4: <input type="text"> </p>
+<p>Number5: <input type="text"> </p>
+<p>Number6: <input type="text"> </p>
+<p>Number7: <input type="text"> </p>
+<p>Number8: <input type="text"> </p>
+<p>Divide by: <input type="text"> </p>
+<p><input type="submit" value="Check" id="button2"></p>
+
+<p><a href="https://github.com/jlao765/280-lab-test.git">Github</a></p>
+</body>
+</html>
